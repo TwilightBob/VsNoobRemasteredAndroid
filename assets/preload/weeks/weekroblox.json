@@ -1,0 +1,32 @@
+{
+	"songs": [
+		[
+			"Crossing My Road",
+			"noob",
+			[
+				226,
+				193,
+				0
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "crossroads",
+	"difficulties": "",
+	"weekCharacters": [
+		"noob",
+		"bf",
+		"gf"
+	],
+	"storyName": "crossing my road",
+	"weekName": "idk",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Noob.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="M Noob Idle0000" x="2835" y="546" width="555" height="526"/>
+	<SubTexture name="M Noob Idle0001" x="3400" y="546" width="555" height="526"/>
+	<SubTexture name="M Noob Idle0002" x="3400" y="546" width="555" height="526"/>
+	<SubTexture name="M Noob Idle0003" x="10" y="1082" width="555" height="526"/>
+	<SubTexture name="M Noob Idle0004" x="10" y="1082" width="555" height="526"/>
+	<SubTexture name="M Noob Idle0005" x="10" y="1082" width="555" height="526"/>
+	<SubTexture name="M Noob Idle0006" x="575" y="1082" width="555" height="526"/>
+	<SubTexture name="M Noob Idle0007" x="575" y="1082" width="555" height="526"/>
+	<SubTexture name="M Noob Idle0008" x="1140" y="1082" width="555" height="526"/>
+	<SubTexture name="M Noob Idle0009" x="1140" y="1082" width="555" height="526"/>
+	<SubTexture name="M Noob Idle0010" x="1715" y="1082" width="555" height="526"/>
+</TextureAtlas>

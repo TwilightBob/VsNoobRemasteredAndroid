@@ -1,0 +1,11 @@
+{
+	
+	"image": "Menu_Noob",
+	"position": [
+		160,
+		35
+	],
+	"scale": 0.5,
+	"idle_anim": "M Noob Idle",
+	"confirm_anim": "M Noob Idle"
+}
