@@ -82,8 +82,9 @@ class CreditsState extends MusicBeatState
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			['Vs Noob Remastered Android Team'],
-			['BrG',		'brg',		'Lead Porter',							'https://www.youtube.com/channel/UCx0LxtFR8ROd9sFAq-UxDfw',	'5DE7FF'],
-			['Nuno Filipe Studios',	'nuno',				'Android Porter',							'https://www.youtube.com/channel/UCq7G3p4msVN5SX2CpJ86tTw',	'989c99'],
+			['BrG',		'brg',		'Lead Porter',							'https://youtu.be/9vDyGqPYXo8',	'277ECD'],
+			['FrostFireGM200',	'frostfire',				'Pro stage guy',							'https://youtube.com/@frostfiregm',	'4D77FF'],
+			['Twilight Bob',	'twilightbob',				'Continued the port',							'https://www.youtube.com/channel/UCQBqqTBnOyLf35UoZUd0R0Q',	'4D77FF'],
 			['Psych Engine Android Team'],
 			['MaysLastPlay',		'MaysLastPlay',		'Android Porter',							'https://www.youtube.com/channel/UCx0LxtFR8ROd9sFAq-UxDfw',	'5DE7FF'],
 			['Nuno Filipe Studios',	'nuno',				'Android Porter',							'https://www.youtube.com/channel/UCq7G3p4msVN5SX2CpJ86tTw',	'989c99'],
