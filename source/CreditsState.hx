@@ -82,7 +82,7 @@ class CreditsState extends MusicBeatState
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			['Vs Noob Remastered Android Team'],
-			['BrG',		'brg',		'Lead Porter',							'https://youtu.be/9vDyGqPYXo8',	'277ECD'],
+			['BrG',		'brg',		'Lead Porter',							'https://youtube.com/@BasicallyItsBrG',	'277ECD'],
 			['FrostFireGM200',	'frostfire',				'Pro stage guy',							'https://youtube.com/@frostfiregm',	'4D77FF'],
 			['Twilight Bob',	'twilightbob',				'Continued the port',							'https://www.youtube.com/channel/UCQBqqTBnOyLf35UoZUd0R0Q',	'4D77FF'],
 			['Psych Engine Android Team'],
