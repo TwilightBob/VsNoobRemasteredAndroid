@@ -521,7 +521,7 @@ class PlayState extends MusicBeatState
 				dadbattleSmokes = new FlxSpriteGroup(); //troll'd
 		}
 			case 'crossroads':
-				GameOverSubstate.characterName = 'bf-holding-gf-dead';
+				GameOverSubstate.characterName = 'bf-dead-censored';
 		}
 
 		if(isPixelStage) {
