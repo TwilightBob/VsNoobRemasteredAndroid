@@ -1,9 +1,9 @@
 function onCreate()
 	-- background shit
-	makeLuaSprite('stageback', 'bg/sky', -300, 100);
-	setScrollFactor('stageback', 0.9, 0.9);
+	makeLuaSprite('stageback', 'bg/sky',-249, 202);
+	setScrollFactor('stageback', 1.9, 1.9);
 
-	makeLuaSprite('stagefront', 'bg/floor', -200, 90);
+	makeLuaSprite('stagefront', 'bg/floor', -250, 14);
 	setScrollFactor('stagefront', 1, 1);
 
 	makeAnimatedLuaSprite('guest', 'bg/Guest', 710, 220)
