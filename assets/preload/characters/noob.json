@@ -1,78 +1,100 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				0,
-				0
-			],
 			"loop": true,
-			"fps": 24,
+			"offsets": [
+				0,
+				0
+			],
 			"anim": "idle",
-			"indices": [],
-			"name": "Noob Idle"
+			"fps": 24,
+			"name": "Noob Idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "Noob Left"
+			"fps": 24,
+			"name": "Noob Left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "Noob Down"
+			"fps": 24,
+			"name": "Noob Down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "Noob Up"
+			"fps": 24,
+			"name": "Noob Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Noob Right",
+			"indices": []
 		},
 		{
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singLEFT",
 			"indices": [],
-			"name": "Noob Right"
+			"fps": 24,
+			"anim": "singnotup",
+			"loop": false,
+			"name": "Noob NotUp"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singnotnotup",
+			"loop": false,
+			"name": "Noob NotNotUp"
 		}
 	],
+	"no_antialiasing": false,
 	"image": "characters/Noob",
-	"scale": 1,
-	"sing_duration": 4,
-	"healthicon": "noob",
 	"position": [
 		-70,
 		264
+	],
+	"healthicon": "noob",
+	"flip_x": false,
+	"healthbar_colors": [
+		243,
+		207,
+		10
 	],
 	"camera_position": [
 		100,
 		-40
 	],
-	"flip_x": false,
-	"no_antialiasing": false,
-	"healthbar_colors": [
-		243,
-		207,
-		10
-	]
+	"sing_duration": 4,
+	"scale": 1
 }
