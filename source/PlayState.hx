@@ -2609,58 +2609,7 @@ class PlayState extends MusicBeatState
 
 				var newCharacter:String = event.value2;
 				addCharacterToList(newCharacter, charType);
-			case 'Spotlight Transition 1':
-				if(curStage == 'crossroads') {
-					dad.animation.addByPrefix('singLEFT', 'Noob Get Down', 24);
-					dad.animation.addByPrefix('singDOWN', 'Noob Get Down2', 24);
-					if (!ClientPrefs.lowQuality) {
-						new FlxTimer().start(0.06, function(tmr:FlxTimer)
-						{
-							FlxTween.color(Buildermanspr, 0.2,  FlxColor.BLACK, FlxColor.fromRGB(255, 255, 255, 255));
-						});
-					}
-					FlxTween.angle(SpotlightSpr1, 0, 10, 0.1);
-					FlxTween.tween(SpotlightSpr1, { x: -2450}, 0.1, { ease: FlxEase.quadInOut,
-						onComplete: function(twn:FlxTween)
-							{
-								new FlxTimer().start(0.2, function(tmr:FlxTimer)
-								{
-									FlxTween.tween(SpotlightSpr1, { x: -3520}, 0.15, { ease: FlxEase.quadInOut});
-									FlxTween.angle(SpotlightSpr1, 10, 24, 0.15, { ease: FlxEase.quadInOut});
-									FlxTween.tween(SpotlightSpr2, { x: 370}, 0.15, { ease: FlxEase.quadInOut});
-									FlxTween.angle(SpotlightSpr2, 0, 1, 0.15, { ease: FlxEase.quadInOut});
-									if (!ClientPrefs.lowQuality) {
-										FlxTween.color(Guestspr, 0.25,  FlxColor.BLACK, FlxColor.fromRGB(255, 255, 255, 255));
-										FlxTween.color(Nooblingsspr, 0.25,  FlxColor.BLACK, FlxColor.fromRGB(255, 255, 255, 255));
-									}
-									FlxTween.color(dad, 0.25,  FlxColor.BLACK, FlxColor.fromRGB(255, 255, 255, 255));
-								});
-							}
-					});		
-				}	
-		
-			case 'Spotlight Transition 2':
-				if(curStage == 'crossroads') {
-					dad.animation.addByPrefix('singLEFT', 'Noob Right', 24);
-					dad.animation.addByPrefix('singDOWN', 'Noob Down', 24);
-					FlxTween.tween(SpotlightSpr1, {x: -4000}, 1.9, { ease: FlxEase.cubeIn,
-						onComplete: function(twn:FlxTween)
-							{
-								remove(SpotlightSpr1);
-							}
-					});	
-					FlxTween.tween(SpotlightSpr2, {x: 1300}, 1.8, { ease: FlxEase.cubeIn,
-						onComplete: function(twn:FlxTween)
-							{
-								remove(SpotlightSpr2);
-							}
-					});	
-					new FlxTimer().start(2, function(tmr:FlxTimer)
-					{
-						funnyJumpersAllowed = true;
-					});	
-				}
-					
+
 			case 'Dadbattle Spotlight':
 				dadbattleBlack = new BGSprite(null, -800, -400, 0, 0);
 				dadbattleBlack.makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.BLACK);
