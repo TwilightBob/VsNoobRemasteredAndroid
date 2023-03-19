@@ -45,7 +45,7 @@ class OutdatedState extends MusicBeatState
 		if(!leftState) {
 			if (controls.ACCEPT) {
 				leftState = true;
-				CoolUtil.browserLoad("https://github.com/ShadowMario/FNF-PsychEngine/releases");
+				CoolUtil.browserLoad("https://github.com/Noobandguestgang/VsNoobRemasteredAndroid/releases");
 			}
 			else if(controls.BACK) {
 				leftState = true;
