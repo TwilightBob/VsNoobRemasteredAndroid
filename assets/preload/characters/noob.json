@@ -63,7 +63,7 @@
 			"indices": [],
 			"fps": 24,
 			"anim": "singnotup",
-			"loop": false,
+			"loop": true,
 			"name": "Noob NotUp"
 		},
 		{
@@ -74,7 +74,7 @@
 			"indices": [],
 			"fps": 24,
 			"anim": "singnotnotup",
-			"loop": false,
+			"loop": true,
 			"name": "Noob NotNotUp"
 		}
 	],
