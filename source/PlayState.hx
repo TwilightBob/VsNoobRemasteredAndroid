@@ -836,7 +836,7 @@ class PlayState extends MusicBeatState
 
 		switch(Paths.formatToSongPath(SONG.song))
 		{
-			case 'crossroads':
+			case 'crossroads.lua':
 				GameOverSubstate.characterName = 'bf-dead-censored';
 		}
 
