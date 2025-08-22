@@ -1,44 +1,34 @@
-
-# This is a basic workflow to help you get started with Actions
-
 name: Build
 
-# Controls when the action will run. 
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-
   buildAndroid:
     name: buildAndroid
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@main
+        uses: actions/checkout@v3   # FIXED
 
       - name: Setup Android NDK
-        uses: nttld/setup-ndk@main
+        uses: nttld/setup-ndk@v1    # FIXED
         id: setup-ndk
         with:
           ndk-version: r21e
 
       - name: Setup Java JDK
-        uses: actions/setup-java@main
+        uses: actions/setup-java@v3   # FIXED
         with:
           distribution: 'zulu'
           java-version: 18
 
       - name: Setup Android SDK
-        uses: android-actions/setup-android@main
+        uses: android-actions/setup-android@v2   # FIXED
 
       - name: Setup Haxe
         uses: krdlab/setup-haxe@v1.2.0
@@ -64,6 +54,7 @@ jobs:
           haxelib git extension-androidtools https://github.com/MaysLastPlay77/extension-androidtools
           haxelib install hxcpp-debug-server
           haxelib list
+
       - name: Create Version Tag
         run: echo "${{github.run_id}}" > VERSION
 
@@ -84,7 +75,7 @@ jobs:
         run: haxelib run lime build android --app-version="4.0.0-${{ github.run_id}}"
 
       - name: Publish Artifact
-        uses: actions/upload-artifact@main
+        uses: actions/upload-artifact@v3   # FIXED
         with:
           name: buildAndroid
           path: export/release/android/bin/app/build/outputs/apk/debug
